@@ -1,0 +1,15 @@
+#SOLID
+
+1. Sigle Responsability Principle
+2. Open/Closed Principle
+3. Loskov Substitution Principle
+4. Interface Segregation Principle
+5. Dependacy Inversion Principle
+
+-----------
+
+1. Cada classe/função tem uma responsabilidade única;
+2. As classes da aplicação devem ser abertas para extensão, mas fehadas para modificação;
+3. Nós devemos poder substituir uma classe pai por uma herança dela e tudo continuar funcionando;
+4. Separar as interfaces sempre que puder para serem implementadas na classe;
+5. Quando a classe depende de algo externo, é necessário ter uma tratativa pra passar as dependências de forma inversa, onde o contexto externo informa as dependências que a classe vai usar
